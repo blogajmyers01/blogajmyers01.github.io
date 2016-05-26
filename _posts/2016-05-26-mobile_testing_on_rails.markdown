@@ -33,7 +33,7 @@ Use ifconfig to find your inet address.
 ifconfig
 ```
 
-or if your lazy you can use this command that gets rid of the stuff that
+or if you're lazy you can use this command that gets rid of the stuff that
 doesn't matter in this case.
 
 ```bash
