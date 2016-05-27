@@ -2,6 +2,8 @@
 layout: post
 title: Mobile Testing on Rails
 date: 2016-05-26  9:31:22
+tags: "Rails, Mobile"
+category: "Rails"
 ---
 
 If you have worked on making a website that isn't complete garbage, you
@@ -47,3 +49,11 @@ LOL ... plz.
 
 ### Finally 
 Then open your mobile browser and go to YOUR_IP:3000
+
+<div> 
+  {% tweet_button %}
+  {% facebook_like_button %}
+  {% gplus_share_button %}
+</div>
+
+{% facebook_comments %}

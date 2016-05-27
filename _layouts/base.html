@@ -19,7 +19,10 @@ common-js:
   {% include head.html %}
 
   <body>
-  
+    {% facebook_script_tag %}
+    {% twitter_script_tag %}
+    {% gplus_script_tag %}
+
     {% include nav.html %}
 
     {{ content }}

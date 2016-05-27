@@ -2,6 +2,8 @@
 layout: post
 title: Dance Floor Psychology
 date: 2016-05-21  0:13:17
+tags: "Psychology"
+category: "Psychology"
 ---
 
   So as some may know and others may not, I dabble in the Dj’ing
@@ -46,3 +48,10 @@ date: 2016-05-21  0:13:17
   it I guess. I’m just a guy making observations in life, and attempting
   to write about them.
 
+<div> 
+  {% tweet_button %}
+  {% facebook_like_button %}
+  {% gplus_share_button %}
+</div>
+
+{% facebook_comments %}

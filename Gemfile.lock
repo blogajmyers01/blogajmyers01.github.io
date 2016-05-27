@@ -99,6 +99,8 @@ GEM
       mini_portile2 (~> 2.0.0.rc2)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
+    octopress-social (1.4.5)
+      jekyll (>= 2.0)
     public_suffix (1.5.3)
     rake (11.1.2)
     rb-fsevent (0.9.7)
@@ -128,6 +130,7 @@ DEPENDENCIES
   execjs
   github-pages
   jekyll-paginate
+  octopress-social
   rake
   therubyracer
 

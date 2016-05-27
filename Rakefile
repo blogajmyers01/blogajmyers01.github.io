@@ -22,9 +22,19 @@ task :default do
 layout: post
 title: #{title}
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
+tags:
+category:
 ---
 
 Content goes here
+
+<div> 
+  {% tweet_button %}
+  {% facebook_like_button %}
+  {% gplus_share_button %}
+</div>
+
+{% facebook_comments %}
     EOS
   end
 

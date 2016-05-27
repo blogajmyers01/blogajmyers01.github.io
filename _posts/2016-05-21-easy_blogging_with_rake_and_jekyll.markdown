@@ -2,6 +2,8 @@
 layout: post
 title: Easy Blogging with Rake and Jekyll
 date: 2016-05-21  0:44:43
+tags: "Rake, Jekyll, Blogging"
+category: "Jekyll"
 ---
 
 So while building this blog I decided to use Jekyll since github so
@@ -46,3 +48,11 @@ Then to create a new blog post you just run:
 ```
 rake
 ```
+
+<div> 
+  {% tweet_button %}
+  {% facebook_like_button %}
+  {% gplus_share_button %}
+</div>
+
+{% facebook_comments %}
