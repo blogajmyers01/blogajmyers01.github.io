@@ -5,4 +5,7 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'github-pages'
 gem 'jekyll-paginate'
-gem 'octopress-social'
+
+group :jekyll_plugins do
+  gem 'octopress-social'
+end
