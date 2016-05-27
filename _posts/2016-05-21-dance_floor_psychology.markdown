@@ -48,7 +48,7 @@ category: "Psychology"
   it I guess. I’m just a guy making observations in life, and attempting
   to write about them.
 
-#### Share this article!
+#### Share this article!!
 <div> 
   {% tweet_button %}
   {% facebook_like_button %}
