@@ -52,7 +52,6 @@ Then open your mobile browser and go to YOUR_IP:3000
 
 <div> 
   {% tweet_button %}
-  {% facebook_like_button %}
   {% gplus_share_button %}
 </div>
 

@@ -51,7 +51,6 @@ rake
 
 <div> 
   {% tweet_button %}
-  {% facebook_like_button %}
   {% gplus_share_button %}
 </div>
 

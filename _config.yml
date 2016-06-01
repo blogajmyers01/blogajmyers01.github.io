@@ -55,10 +55,6 @@ footer-links-active:
 twitter:
   username: 'Al3x_Myers' # Add your Twitter handle
   tweet_count: true      # Show number of shares on Twitter
-disqus:
-  shortname: blogalexmyersnet                      # Your site's disqus identifier
-  comments_link_text: Comments                     # Text label for comments link
-  comments_disabled_link_text: Comments disabled   # Set to '' to not output a comments link when disabled
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
