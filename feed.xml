@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex&#39;s Blog</title>
+    <description>Streamline of thought, some of it sensible</description>
+    <link>http://blog.alexmyers.net</link>
+    <atom:link href="http://blog.alexmyers.net/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Run Rake tasks on a server with Capistrano and Rake</title>
+        <description>
+          
+          I ran into the issue the other day of getting my Jenkins to be able to run rake tasks on a remote server. So I decided to write a rake task that allowed it to offload the connection to the remote box onto Capistrano. This nifty little Rake task will...
+        </description>
+        <pubDate>Mon, 06 Jun 2016 15:54:26 -0700</pubDate>
+        <link>http://blog.alexmyers.net/2016-06-06-run_commands_on_a_remote_server_with_capistrano_and_rake/</link>
+        <guid isPermaLink="true">http://blog.alexmyers.net/2016-06-06-run_commands_on_a_remote_server_with_capistrano_and_rake/</guid>
+      </item>
+    
+      <item>
+        <title>Best way to check if assets exist.</title>
+        <description>
+          
+          So if you have ever had to check if an asset exists in rails, you may have overlooked the fact that Rails assets compile in production. I found this out the hard way, luckily it was just the first deploy so it didn’t affect any customers. So I thought I...
+        </description>
+        <pubDate>Tue, 31 May 2016 12:32:01 -0700</pubDate>
+        <link>http://blog.alexmyers.net/2016-05-31-best_way_to_check_if_assets_exist/</link>
+        <guid isPermaLink="true">http://blog.alexmyers.net/2016-05-31-best_way_to_check_if_assets_exist/</guid>
+      </item>
+    
+      <item>
+        <title>Mobile Testing on Rails</title>
+        <description>
+          
+          If you have worked on making a website that isn’t complete garbage, you have probably worried about what it looks on mobile. So I’ll show you the real quick and easy way to connect to your local server from your mobile device. Ensure both devices are on the same network...
+        </description>
+        <pubDate>Thu, 26 May 2016 02:31:22 -0700</pubDate>
+        <link>http://blog.alexmyers.net/2016-05-26-mobile_testing_on_rails/</link>
+        <guid isPermaLink="true">http://blog.alexmyers.net/2016-05-26-mobile_testing_on_rails/</guid>
+      </item>
+    
+      <item>
+        <title>Easy Blogging with Rake and Jekyll</title>
+        <description>
+          
+          So while building this blog I decided to use Jekyll since github so kindly hosts it for free on their servers. I wanted to share the RakeFile I use to create posts. # Ask for title def ask message print message STDIN.gets.chomp end title = ask(&#39;Title: &#39;) #Create new a...
+        </description>
+        <pubDate>Fri, 20 May 2016 17:44:43 -0700</pubDate>
+        <link>http://blog.alexmyers.net/2016-05-20-easy_blogging_with_rake_and_jekyll/</link>
+        <guid isPermaLink="true">http://blog.alexmyers.net/2016-05-20-easy_blogging_with_rake_and_jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>Dance Floor Psychology</title>
+        <description>
+          
+          So as some may know and others may not, I dabble in the Dj’ing business. I have one recurring gig that I come back to every year. The Prom and or Homecoming of my old Alma Mater. So the topic of this blog post is dance floor psychology, just to...
+        </description>
+        <pubDate>Fri, 20 May 2016 17:13:17 -0700</pubDate>
+        <link>http://blog.alexmyers.net/2016-05-20-dance_floor_psychology/</link>
+        <guid isPermaLink="true">http://blog.alexmyers.net/2016-05-20-dance_floor_psychology/</guid>
+      </item>
+    
+  </channel>
+</rss>
